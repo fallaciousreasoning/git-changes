@@ -70,7 +70,7 @@ def run_command(command):
     with open(name, 'r') as f:
         return f.readlines()
 
-git_repo = "seng440-project1"
+git_repo = "."
 if len(sys.argv) > 1:
     git_repo = sys.argv[1]
 
